@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+.todo-container{
+    background-color: antiquewhite;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    justify-content: center;
+
+    
+}
+
+.todo{
+    padding: 10px 30px;
+    background-color: aquamarine;
+}
+
+.date{
+    padding: 10px 30px;
+    background-color: lightcyan;
+}
+.remove-button{
+    margin: 10px 30px;
+    
+}
