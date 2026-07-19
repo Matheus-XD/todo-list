@@ -1,9 +1,23 @@
 body{
     margin: 0;
     padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    background-image: url(images/background-image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 p{
     margin: 0;
+}
+
+.board{
+    background-color: azure;
+    margin: 0 20px;
 }
 .todo-container{
     background-color: antiquewhite;
